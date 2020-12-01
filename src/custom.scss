@@ -1,0 +1,62 @@
+$font-family-sans-serif: Avenir;
+$jumbotron-bg: #0E63F8;
+$body-color: #ffffff;
+$navbar-color: #ffffff;
+
+body {
+  space-between: 0.5em;
+}
+
+h2 {
+  padding-bottom: 0.5em;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #0E63F8;
+}
+
+.imgContainer:hover .overlay {
+  opacity: 0.8;
+  transition: 0.5s ease-in-out;
+}
+
+.imgContainer .overlay {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:hover .overlay {
+  color: #ffffff !important;
+}
+
+.blue {
+  color: #0E63F8;
+}
+
+.bg-dark {
+  background-color: #0E63F8 !important;
+}
+
+.no-style {
+  color: #ffffff;
+}
+
+.footer {
+  margin-bottom: 0 !important;
+}
+
+@media screen and (max-width: 425px) {
+  .mobile-overlay {
+    background: rgba(0, 0, 0, 0.2);
+  }
+}
+
+@import "~bootstrap/scss/bootstrap";

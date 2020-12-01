@@ -36,3 +36,11 @@
     transform: rotate(360deg);
   }
 }
+
+body {
+  font-family: Avenir, sans-serif;
+}
+
+.jumbotron {
+  background-color: #0E63F8;
+}
